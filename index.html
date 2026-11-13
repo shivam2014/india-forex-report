@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India Forex Report, October 2026</title>
+<meta name="description" content="The rupee's recovery, the reserves it cost, and the policy turn of October 2026.">
+<style>
+  :root{
+    --ink:#14171c;
+    --muted:#5c6572;
+    --rule:#d8d3c8;
+    --paper:#fbfaf6;
+    --accent:#a3122b;
+    --accent-soft:#e8d3d6;
+    --blue:#2a4a6b;
+    --tile:#f2efe7;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font:17px/1.62 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  }
+  .wrap{max-width:900px;margin:0 auto;padding:56px 28px 96px}
+  header{border-bottom:2px solid var(--ink);padding-bottom:26px;margin-bottom:38px}
+  .kicker{
+    font:600 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px
+  }
+  h1{
+    font-size:clamp(34px,5.2vw,52px);line-height:1.06;margin:0 0 14px;
+    letter-spacing:-.015em;font-weight:600
+  }
+  .deck{font-size:20px;line-height:1.5;color:#2b3138;margin:0 0 18px;max-width:46em}
+  .meta{
+    font:400 13px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    color:var(--muted);margin:0
+  }
+  .tiles{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule);
+    border:1px solid var(--rule);margin:0 0 44px
+  }
+  .tile{background:var(--tile);padding:16px 16px 18px}
+  .tile .label{
+    font:500 11px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:6px
+  }
+  .tile .value{font-size:23px;line-height:1.15;font-weight:600;display:block}
+  .tile .note{
+    font:400 12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    color:var(--muted);display:block;margin-top:4px
+  }
+  h2{
+    font-size:15px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;
+    margin:52px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--rule);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif
+  }
+  h2:first-of-type{margin-top:0}
+  p{margin:0 0 18px}
+  .lede{font-size:19px}
+  .lede::first-letter{
+    float:left;font-size:62px;line-height:.82;padding:6px 10px 0 0;font-weight:600;color:var(--accent)
+  }
+  table{width:100%;border-collapse:collapse;margin:8px 0 26px;font-size:15px}
+  caption{
+    text-align:left;font:500 12px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    color:var(--muted);padding:0 0 8px
+  }
+  th,td{padding:9px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:baseline}
+  thead th{
+    font:600 11px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    letter-spacing:.06em;text-transform:uppercase;color:var(--muted);
+    border-bottom:1px solid var(--ink)
+  }
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  tbody tr:last-child td{border-bottom:1px solid var(--ink)}
+  .neg{color:var(--accent)}
+  figure{margin:26px 0 34px}
+  figure svg{display:block;width:100%;height:auto}
+  figcaption{
+    font:400 12.5px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    color:var(--muted);margin-top:10px
+  }
+  .callout{
+    border-left:3px solid var(--accent);background:#f6f0ea;padding:18px 20px;margin:26px 0 30px
+  }
+  .callout p:last-child{margin-bottom:0}
+  ol.watch{margin:0;padding-left:22px}
+  ol.watch li{margin-bottom:14px}
+  ol.watch li::marker{font-weight:600;color:var(--accent)}
+  .sources{
+    font:400 13.5px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    color:#33393f
+  }
+  .sources li{margin-bottom:7px}
+  .sources a{color:var(--blue);text-decoration:none;border-bottom:1px solid #b9c4d1}
+  .sources a:hover{border-bottom-color:var(--blue)}
+  footer{
+    margin-top:56px;padding-top:18px;border-top:1px solid var(--rule);
+    font:400 12.5px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    color:var(--muted)
+  }
+  a{color:var(--blue)}
+  @media (max-width:700px){
+    .wrap{padding:36px 18px 72px}
+    .tiles{grid-template-columns:repeat(2,1fr)}
+    body{font-size:16px}
+    .lede{font-size:18px}
+    .lede::first-letter{font-size:48px}
+  }
+  @media print{
+    :root{--paper:#fff}
+    body{font-size:11.5pt}
+    .wrap{max-width:none;padding:0}
+    h2{break-after:avoid}
+    figure,table,.callout{break-inside:avoid}
+    .tiles{break-inside:avoid}
+    a{color:inherit;border:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="kicker">Market note &middot; India</p>
+  <h1>India Forex Report, October 2026</h1>
+  <p class="deck">The rupee climbed back to its strongest level since April, then slipped under 94 again. Reserves paid for part of that round trip, and the weekly data shows the bill.</p>
+  <p class="meta">Compiled 13 November 2026 &middot; data through 12 November &middot; figures provisional</p>
+</header>
+
+<div class="tiles">
+  <div class="tile">
+    <span class="label">USD/INR</span>
+    <span class="value">94.04</span>
+    <span class="note">12 Nov close, down 35 paise</span>
+  </div>
+  <div class="tile">
+    <span class="label">Reserves</span>
+    <span class="value">$717.1 bn</span>
+    <span class="note">week to 30 Oct, &minus;$2.69 bn</span>
+  </div>
+  <div class="tile">
+    <span class="label">Repo rate</span>
+    <span class="value">5.50%</span>
+    <span class="note">raised 25 bp on 7 Oct</span>
+  </div>
+  <div class="tile">
+    <span class="label">CPI, October</span>
+    <span class="value">6.09%</span>
+    <span class="note">above the 2&ndash;6% band</span>
+  </div>
+</div>
+
+<h2>The month in short</h2>
+
+<p class="lede">October was the month the rupee stopped falling. It had touched a record low of 96.96 in May, when crude was above $110 and foreign investors were pulling money out of Indian equities. By 11 November it closed at 93.69, up 0.2% on the day and the strongest since April. It had gained nearly 3.25% in about a month.</p>
+
+<p>That run ended the next session. The rupee closed at 94.04 on 12 November, 35 paise weaker, after state-owned banks and importers bought dollars, US inflation came in hot and Treasury yields rose. Foreign portfolios bought &#8377;7,830 crore of Indian equities that day, which kept the fall small.</p>
+
+<p>For the year the currency is still down about 4%. Over Samvat 2082 it lost 6.37%, from 87.93 to 93.91 on 6 November. The recovery narrowed the loss without erasing it.</p>
+
+<h2>The rupee: a rally built on cheaper oil and returning flows</h2>
+
+<p>Three things turned the currency around. Brent fell from about $107 a barrel a month ago to $95.41 on 13 November, which cuts the import bill for a country that buys most of its crude. Foreign investors came back in the second half of October after two months of selling. And the RBI's measures, including a dedicated dollar window for state-owned oil marketing companies, took pressure off importers bidding for dollars in the spot market.</p>
+
+<p>Traders also point to the non-deliverable forward market, where positioning had been heavily long dollars. As the rupee held above 94, that trade unwound and added to the rally.</p>
+
+<figure>
+  <svg viewBox="0 0 760 190" role="img" aria-label="Selected USD/INR levels from 87.93 at the start of Samvat 2082 to a record 96.96 in May, then 93.69 on 11 November and 94.04 on 12 November.">
+    <line x1="40" y1="110" x2="720" y2="110" stroke="#14171c" stroke-width="1.2"/>
+    <g stroke="#14171c" stroke-width="1">
+      <line x1="40"  y1="105" x2="40"  y2="115"/>
+      <line x1="267" y1="105" x2="267" y2="115"/>
+      <line x1="493" y1="105" x2="493" y2="115"/>
+      <line x1="720" y1="105" x2="720" y2="115"/>
+    </g>
+    <g font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#5c6572" text-anchor="middle">
+      <text x="40"  y="134">87</text>
+      <text x="267" y="134">91</text>
+      <text x="493" y="134">94.5</text>
+      <text x="720" y="134">98</text>
+    </g>
+
+    <g>
+      <circle cx="66" cy="110" r="4.5" fill="#2a4a6b"/>
+      <line x1="66" y1="105" x2="66" y2="58" stroke="#2a4a6b" stroke-width="1"/>
+      <text x="66" y="48" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#2a4a6b" text-anchor="middle">87.93</text>
+      <text x="66" y="34" font-family="ui-sans-serif,system-ui,sans-serif" font-size="11" fill="#5c6572" text-anchor="middle">Samvat open</text>
+    </g>
+
+    <g>
+      <circle cx="410" cy="110" r="4.5" fill="#2a4a6b"/>
+      <line x1="410" y1="115" x2="410" y2="158" stroke="#2a4a6b" stroke-width="1"/>
+      <text x="410" y="172" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#2a4a6b" text-anchor="middle">93.69 on 11 Nov</text>
+    </g>
+
+    <g>
+      <circle cx="434" cy="110" r="4.5" fill="#a3122b"/>
+      <line x1="434" y1="115" x2="434" y2="140" stroke="#a3122b" stroke-width="1"/>
+      <text x="470" y="153" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#a3122b" text-anchor="middle">94.04 on 12 Nov</text>
+    </g>
+
+    <g>
+      <circle cx="663" cy="110" r="4.5" fill="#a3122b"/>
+      <line x1="663" y1="105" x2="663" y2="58" stroke="#a3122b" stroke-width="1"/>
+      <text x="663" y="48" font-family="ui-sans-serif,system-ui,sans-serif" font-size="12" fill="#a3122b" text-anchor="middle">96.96</text>
+      <text x="663" y="34" font-family="ui-sans-serif,system-ui,sans-serif" font-size="11" fill="#5c6572" text-anchor="middle">record low, May</text>
+    </g>
+  </svg>
+  <figcaption>Selected USD/INR levels, not a continuous series. Sources: Reuters, Business Standard, BusinessLine.</figcaption>
+</figure>
+
+<table>
+  <caption>Rupee milestones, 2026</caption>
+  <thead>
+    <tr><th>Date</th><th class="num">USD/INR</th><th>What happened</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start of Samvat 2082</td><td class="num">87.93</td><td>Reference close before the slide</td></tr>
+    <tr><td>May 2026</td><td class="num neg">96.96</td><td>Record low on crude and outflows</td></tr>
+    <tr><td>6 November</td><td class="num">93.91</td><td>Strongest since 22 April</td></tr>
+    <tr><td>11 November</td><td class="num">93.69</td><td>Intraday high of 93.635</td></tr>
+    <tr><td>12 November</td><td class="num">94.04</td><td>Down 35 paise on dollar demand</td></tr>
+  </tbody>
+</table>
+
+<h2>Reserves: $68.7 billion below the peak</h2>
+
+<p>Foreign exchange reserves stood at $717.06 billion in the week ended 30 October, down $2.69 billion from the week before and the second weekly fall in a row. They are $68.65 billion below the record $785.71 billion of 4 September, and still $25.95 billion above the end-March level.</p>
+
+<p>The September peak was inflated by a scheme rather than by trade. On 8 June the RBI opened a swap facility for FCNR(B) deposits, letting banks take fresh three to five year non-resident deposits and swap the dollars with the central bank. Banks raised more than $133 billion through it, and reserves jumped. The dollars are borrowed. At maturity the banks buy them back, so the peak overstated the buffer.</p>
+
+<figure>
+  <svg viewBox="0 0 760 150" role="img" aria-label="Reserves of 717.1 billion dollars today against a 4 September peak of 785.7 billion, a fall of 68.7 billion.">
+    <g font-family="ui-sans-serif,system-ui,sans-serif" font-size="12.5">
+      <text x="0" y="26" fill="#14171c" font-weight="600">Peak, 4 Sep</text>
+      <rect x="128" y="12" width="632" height="22" fill="#e2dbcd"/>
+      <text x="746" y="28" fill="#5c6572" text-anchor="end">$785.7 bn</text>
+
+      <text x="0" y="76" fill="#14171c" font-weight="600">30 Oct</text>
+      <rect x="128" y="62" width="576.8" height="22" fill="#2a4a6b"/>
+      <rect x="704.8" y="62" width="55.2" height="22" fill="#a3122b"/>
+      <text x="694" y="78" fill="#ffffff" text-anchor="end">$717.1 bn</text>
+
+      <line x1="704.8" y1="48" x2="704.8" y2="96" stroke="#a3122b" stroke-width="1" stroke-dasharray="3 3"/>
+      <text x="704.8" y="118" fill="#a3122b" text-anchor="middle">fall of $68.7 bn</text>
+      <text x="704.8" y="136" fill="#5c6572" text-anchor="middle">from the September peak</text>
+    </g>
+  </svg>
+  <figcaption>Bars drawn to scale. Reserve stock, not a time series. Source: RBI Weekly Statistical Supplement, 6 November 2026.</figcaption>
+</figure>
+
+<table>
+  <caption>Reserves by component, US$ billion</caption>
+  <thead>
+    <tr><th>Component</th><th class="num">23 Oct</th><th class="num">30 Oct</th><th class="num">Week</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Total reserves</td><td class="num">719.75</td><td class="num">717.06</td><td class="num neg">&minus;2.69</td></tr>
+    <tr><td>Foreign currency assets</td><td class="num">593.21</td><td class="num">591.12</td><td class="num neg">&minus;2.09</td></tr>
+    <tr><td>Gold</td><td class="num">103.15</td><td class="num">102.59</td><td class="num neg">&minus;0.56</td></tr>
+    <tr><td>SDRs</td><td class="num">18.61</td><td class="num">18.56</td><td class="num neg">&minus;0.05</td></tr>
+    <tr><td>IMF reserve position</td><td class="num">4.79</td><td class="num">4.79</td><td class="num">+0.003</td></tr>
+  </tbody>
+</table>
+
+<p>Not all of the fall is intervention. The dollar value of euro, pound and yen holdings moves with the exchange rate, so a stronger dollar shrinks the reported total without any sale. Even so, the RBI did sell. Gaura Sengupta of IDFC First Bank estimates net dollar sales of $3.2 billion in the week to 30 October, with valuation gains softening the reported decline.</p>
+
+<p>The other number that matters sits off the balance sheet. The RBI's net short dollar position in the forward market reached a record of nearly $240 billion in September. Those contracts are future dollar commitments, and they limit how long the central bank can keep supplying spot dollars without rebuilding its stock.</p>
+
+<div class="callout">
+  <p>Read the reserves fall as two different events. Part is the price of holding the rupee near 94. Part is the FCNR(B) money going back out as banks deploy the deposits they raised. Only the first is a policy choice, and only the first can be reversed by buying dollars later.</p>
+</div>
+
+<h2>Policy: a hike, and a band breached</h2>
+
+<p>The Monetary Policy Committee met on 5 to 7 October and raised the repo rate by 25 basis points to 5.50%, unanimously. The standing deposit facility rate is 5.25% and the marginal standing facility rate and bank rate are 5.75%. The committee also changed its stance from neutral to calibrated tightening, which rules out cuts in the near term. Two members, Nagesh Kumar and Ram Singh, wanted the neutral stance kept.</p>
+
+<p>The RBI projected CPI inflation at 5.2% for 2026-27, with the December quarter at 6.0% and the March quarter at 5.7%. Core inflation was put at 4.4% and GDP growth for the year was raised 40 basis points to 7.1%.</p>
+
+<p>October inflation came in at 6.09%, up from 5.54% in September and the ninth consecutive monthly increase. It is the first reading above the 6% upper tolerance limit since the new 2024-base series began in January, when inflation was 2.74%. Food inflation reached 8.94%, rural inflation 6.63% and urban inflation 5.41%. Onion prices were up 116.22% from a year earlier, while potato prices fell 14.24%. Housing inflation stayed at 2.90%.</p>
+
+<p>The next meeting is on 2 to 4 December. With headline inflation above the band and food prices still climbing, another 25 basis points is a live option. Ranen Banerjee of PwC India expects 25 to 50.</p>
+
+<h2>Flows and the external account</h2>
+
+<p>The goods trade deficit was $30.21 billion in September, wider than August's $26.86 billion but narrower than the $33 billion of a year earlier. Exports rose 23% to $44.40 billion, led by engineering goods at $12.17 billion and electronics at $5.31 billion. Imports were $74.61 billion, up 8%, with the crude bill at $18.34 billion after a 31% jump.</p>
+
+<p>For April to September the goods deficit was $177.64 billion against $156.88 billion a year earlier. Adding services, the combined gap was $74.93 billion. Services exports earned a surplus of $102.7 billion over the six months, but it grew more slowly than the goods gap.</p>
+
+<p>The current account deficit was $4.2 billion, or 0.5% of GDP, in the June quarter, against $3.4 billion a year earlier. From April to August it reached $18.3 billion, up from $12.8 billion. The balance of payments swung to an $8.1 billion deficit in the June quarter from a $4.5 billion surplus, mostly because portfolio money left.</p>
+
+<p>Foreign investors sold &#8377;34,843 crore of Indian equities in October, the second heavy month after &#8377;35,861 crore in September. Outflows for 2026 so far total about &#8377;2.95 lakh crore. The selling eased in the second half of October: FIIs were net buyers of $2.8 billion in those two weeks after $5 billion of outflows in the first half.</p>
+
+<h2>What to watch</h2>
+
+<ol class="watch">
+  <li>The 2 to 4 December MPC meeting. A second hike would confirm the committee sees food inflation spreading into expectations, not just into onion prices.</li>
+  <li>Brent and the Strait of Hormuz. Crude is down 16% in a week and still near $95. The war with Iran is in its ninth month, and tanker attacks have not stopped.</li>
+  <li>The forward book. Nearly $240 billion of net short dollar contracts is demand for dollars that has been promised but not yet paid.</li>
+  <li>Portfolio flows. Two months of selling turned into buying in late October. Whether that holds decides how much the RBI has to sell.</li>
+  <li>Reserve rebuilding. On a sustained rally the central bank is more likely to buy dollars than let the rupee appreciate, which caps the upside near 93.50.</li>
+</ol>
+
+<h2>Sources</h2>
+
+<ol class="sources">
+  <li>Reserve Bank of India, <a href="https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx/BS_PressReleaseDisplay.aspx?prid=63939">Weekly Statistical Supplement, 6 November 2026</a>.</li>
+  <li>Reserve Bank of India, <a href="https://www.rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=24511">Monetary Policy Committee resolution, 5 to 7 October 2026</a>.</li>
+  <li>Ministry of Statistics and Programme Implementation, CPI release for October 2026, reported by <a href="https://www.thehindubusinessline.com/economy/indias-retail-inflation-rises-to-609-in-october-breaches-rbis-upper-tolerance-limit/article71693402.ece">BusinessLine</a> and <a href="https://www.livemint.com/economy/cpi-retail-inflation-october-india-rbi-target-food-price-inflation-11794467724485.html">Mint</a>.</li>
+  <li>Department of Commerce, <a href="https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2323944&amp;lang=1&amp;reg=3">September 2026 trade release</a>, and <a href="https://www.business-standard.com/economy/news/india-trade-deficit-september-exports-imports-commerce-ministry-126101500744_1.html">Business Standard</a>.</li>
+  <li>RBI balance of payments, June quarter, reported by <a href="https://www.financialexpress.com/policy/economy/india-outlook-crude-at-90-a-barrel-rupee-at-96-per-dollar-trade-deficit-to-stay-elevated/4365316/">Financial Express</a> and <a href="https://www.factiq.com/updates/india-april-june-2026-balance-of-payments-8-1bn-deficit-as-portfolio-money-1531">FactIQ</a>.</li>
+  <li>Rupee levels and flows: <a href="https://www.brecorder.com/news/40448426">Reuters</a>, <a href="https://www.moneycontrol.com/news/business/banks/rupee-snaps-appreciation-streak-falls-below-94-as-dollar-strengthens-14078366.html">Moneycontrol</a>, <a href="https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-streak-trips-on-dollar-demand-falls-35-paise-to-94-04/articleshow/135785666.cms">Economic Times</a>, <a href="https://www.business-standard.com/markets/news/pressure-on-rupee-continues-in-samvat-2082-10-year-bond-yields-harden-126110601774_1.html">Business Standard</a>.</li>
+  <li>Reserve composition and FCNR(B): <a href="https://www.livemint.com/economy/indias-forex-reserves-fall-2-69-billion-to-717-billion-why-rbi-is-selling-dollars-and-what-it-means-for-the-rupee-11794125996170.html">Mint</a>, <a href="https://www.thehindu.com/business/markets/indias-forex-reserves-drop-by-269-bn-to-717-bn/article71674389.ece">The Hindu</a>, <a href="https://www.moneycontrol.com/news/business/banks/forex-reserves-fall-2-69-billion-to-717-06-billion-decline-for-second-consecutive-week-14073609.html">Moneycontrol</a>.</li>
+  <li>Portfolio flows: <a href="https://www.thehindu.com/business/markets/fpis-pull-out-34843-crore-from-indian-equities-in-october-but-turn-net-buyers-end-of-the-month/article71653063.ece">The Hindu</a>, <a href="https://www.thehindubusinessline.com/markets/fii-selling-eases-in-october-as-technology-and-telecom-attract-foreign-investors-motilal-oswal/article71685538.ece">BusinessLine</a>.</li>
+  <li>Crude: <a href="https://www.cnbc.com/2026/11/13/oil-prices-set-for-second-weekly-decline-as-trump-to-stay-with-iran-blockade.html">CNBC</a>, <a href="https://www.ndtvprofit.com/markets/oil-prices-today-november-13-brent-crude-oil-wti-reverses-course-climbs-above-95-what-happens-next-us-strait-of-hormuz-iran-war-middle-east-12320081">NDTV Profit</a>.</li>
+</ol>
+
+<footer>
+  <p>All figures are as published by the cited sources and may be revised. This note is a summary of public data, not investment advice.</p>
+</footer>
+
+</div>
+</body>
+</html>
